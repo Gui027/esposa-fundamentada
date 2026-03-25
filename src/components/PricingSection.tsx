@@ -21,10 +21,15 @@ const PricingSection = () => {
           Precio Especial de Lanzamiento
         </p>
         <h2 className="text-3xl md:text-4xl font-heading font-bold">
-          ¡Llévate <span className="text-gold-gradient">TODO</span> esto por solo
+          ¡Llévate <span className="text-gold-gradient">TODO</span> esto por
+          solo
         </h2>
-        <div className="text-6xl font-heading font-bold text-gold-gradient">$9,90 USD</div>
-        <p className="text-muted-foreground">(Puedes pagar en tu moneda local)</p>
+        <div className="text-6xl font-heading font-bold text-gold-gradient">
+          $9,90 USD
+        </div>
+        <p className="text-muted-foreground">
+          (Puedes pagar en tu moneda local)
+        </p>
 
         <div className="bg-card border border-gold/20 rounded-2xl p-8 text-left space-y-3">
           <p className="font-heading font-semibold text-foreground text-center mb-4">
@@ -41,21 +46,25 @@ const PricingSection = () => {
               <Lock className="w-3 h-3" /> Acceso seguro y 100% digital
             </div>
             <div className="flex items-center gap-2 text-muted-foreground text-xs">
-              <Smartphone className="w-3 h-3" /> Compatible con cualquier dispositivo
+              <Smartphone className="w-3 h-3" /> Compatible con cualquier
+              dispositivo
             </div>
             <div className="flex items-center gap-2 text-muted-foreground text-xs">
-              <Mail className="w-3 h-3" /> Entrega inmediata al correo electrónico
+              <Mail className="w-3 h-3" /> Entrega inmediata al correo
+              electrónico
             </div>
           </div>
         </div>
 
         <a
-          href="#"
+          href="https://go.centerpag.com/PPU38CQ9EN0"
           className="inline-block bg-gold-gradient text-primary-foreground font-bold px-12 py-5 rounded-lg text-xl hover:scale-105 transition-transform duration-300 animate-pulse-gold"
         >
           QUIERO LA GUÍA AHORA
         </a>
-        <p className="text-primary text-sm font-semibold">⏳ Oferta limitada — últimos cupos disponibles</p>
+        <p className="text-primary text-sm font-semibold">
+          ⏳ Oferta limitada — últimos cupos disponibles
+        </p>
       </div>
     </section>
   );
